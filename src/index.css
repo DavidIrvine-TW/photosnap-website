@@ -10,7 +10,8 @@
 }
 
 img {
-  width: 100%;
+max-width: 100%;
+display: block;
 }
 
 /* Header menu styles */
@@ -39,6 +40,16 @@ img {
 .hamburger-menu.cross span:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
+
+@media screen and (min-width: 768px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+
+
+
 
 /* mobile menu slidein/out from right */
 .slide-in {
@@ -70,4 +81,39 @@ img {
   to {
     right: -100%;
   }
-} 
+};
+
+/* components fade in on load */ 
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 0.5s ease-in forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+};
+
+/* hover over img */
+#img--container {
+  position: relative;
+ 
+}
+
+#img--container {
+  transition: transform 0.2s ease-in;
+}
+
+#img--container:hover {
+  transform: translateY(-20px);
+ 
+}
+
+
+/* pricing table visibility */
+#checkmark {
+  visibility: hidden;
+}

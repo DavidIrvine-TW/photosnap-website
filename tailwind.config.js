@@ -13,7 +13,8 @@ export default {
         'gray' : 'hsl(0, 0%, 87%)',
         'gradient1' : 'hsl(28, 100%, 79%)',
         'gradient2' : 'hsl(329, 36%, 59%)',
-        'gradient3' : 'hsl(229, 100%, 67%)'
+        'gradient3' : 'hsl(229, 100%, 67%)',
+        'vlgray': 'hsl(0,0%,96%)',
       },
       screens : {
         mobile: '375px',
