@@ -2,7 +2,7 @@ import tick from "../../assets/pricing/desktop/check.svg";
 
 function PricingPageTableTab() {
   return (
-    <article className="uppercase font-bold tracking-[2px] text-[0.75rem] hidden tablet:block">
+    <article className="uppercase font-bold tracking-[2px] text-[0.75rem] hidden tablet:block desktop:w-[1440px] desktop:px-[22.1875rem]">
         {/* headers */}
         <div className="flex gap-[6.5rem] items-center justify-between border-b border-gray p-[1.5rem]">
             <div>

@@ -4,9 +4,9 @@ import featureThree from "../../assets/features/desktop/embed.svg";
 
 function HomePageFeatures() {
   return (
-    <section className="py-[5rem] px-[2rem] ">
-      <div className="w-full text-center mb-[3.5rem] tablet:w-[457px] mx-auto">
-        <div className="w-[72px] mx-auto mb-[3rem]">
+    <section className="py-[5rem] px-[2rem] desktop:px-[10.3125rem] desktop:py-[7.5rem] desktop:flex gap-[2rem]">
+      <div className="w-full text-center mb-[3.5rem] tablet:w-[457px] mx-auto desktop:mb-[0]">
+        <div className="w-[72px] h-[72px] mx-auto mb-[3rem]">
           <img src={featureOne} />
         </div>
         <h4 className="mx-auto mb-[1rem] text-h3">100% responsive</h4>
@@ -16,8 +16,8 @@ function HomePageFeatures() {
         </p>
       </div>
 
-      <div className="w-full text-center mb-[3.5rem] tablet:w-[457px] mx-auto">
-        <div className="w-[72px] mx-auto mb-[3rem]">
+      <div className="w-full text-center mb-[3.5rem] tablet:w-[457px] mx-auto desktop:mb-[0]">
+        <div className="w-[72px] h-[72px] mx-auto mb-[3rem]">
           <img src={featureTwo} />
         </div>
         <h4 className="mx-auto mb-[1rem] text-h3">No Photo Upload Limit</h4>
@@ -27,8 +27,8 @@ function HomePageFeatures() {
         </p>
       </div>
 
-      <div className="w-full text-center mb-[3.5rem] tablet:w-[457px] mx-auto">
-        <div className="w-[72px] mx-auto mb-[3rem]">
+      <div className="w-full text-center mb-[3.5rem] tablet:w-[457px] mx-auto desktop:mb-[0]">
+        <div className="w-[72px] h-[72px]  mx-auto mb-[3rem]">
           <img src={featureThree} />
         </div>
         <h4 className="mx-auto mb-[1rem] text-h3">Available to Embed</h4>

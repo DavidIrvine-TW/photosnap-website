@@ -12,7 +12,7 @@ import arrow from "../../assets/shared/desktop/arrow.svg";
 
 function HomePageHero() {
   return (
-    <article className="grid grid-cols-1 mx-auto w-[375px] tablet:w-[768px] desktop:w-[1440px]">
+    <article className="grid grid-cols-1 mx-auto w-[375px] tablet:w-[768px] desktop:w-[1440px] relative z-[-10]">
       <div className="tablet:flex tablet:flex-row-reverse">
         <div id="img--one">
           <picture>
@@ -24,7 +24,7 @@ function HomePageHero() {
 
         <div
           id="img--one--content"
-          className=" bg-black pl-[2rem] pr-[1.5rem] py-[4.5rem] flex flex-col gap-[1rem] tablet:w-[495px] tablet:py-[10.5rem] tablet:px-[3.375rem] desktop:w-[610px] desktop:px-[6.875rem]"
+          className="relative bg-black pl-[2rem] pr-[1.5rem] py-[4.5rem] flex flex-col gap-[1rem] tablet:w-[495px] tablet:py-[10.5rem] tablet:px-[3.375rem] desktop:w-[610px] desktop:px-[6.875rem]"
         >
           <div>
             <h1 className="uppercase text-white text-h1-mb tablet:text-h1">
@@ -46,6 +46,7 @@ function HomePageHero() {
               <img className="w-[42px]" src={arrowWhite} />
             </button>
           </div>
+          <div id="rainbow-bar" className="absolute tablet:w-[10px] tablet:h-[300px] tablet:left-[0] tablet:top-[168px] w-[128px] h-[10px] left-[32px] top-[0px] bg-white"  />
         </div>
       </div>
 
@@ -98,7 +99,7 @@ function HomePageHero() {
 
         <div
           id="img--three--content"
-          className=" bg-white pl-[2rem] pr-[1.5rem] py-[4.5rem] flex flex-col gap-[1rem] tablet:w-[495px] desktop:w-[610px] tablet:py-[8.5rem] tablet:px-[3.375rem] desktop:px-[7rem] desktop:py-[10rem] "
+          className=" relative bg-white pl-[2rem] pr-[1.5rem] py-[4.5rem] flex flex-col gap-[1rem] tablet:w-[495px] desktop:w-[610px] tablet:py-[8.5rem] tablet:px-[3.375rem] desktop:px-[7rem] desktop:py-[10rem] "
         >
           <div>
             <h1 className="uppercase text-black text-h1-mb tablet:text-h1">
@@ -120,6 +121,7 @@ function HomePageHero() {
               <img className="w-[42px]" src={arrow} />
             </button>
           </div>
+          <div id="rainbow-bar" className="hidden tablet:block absolute w-[10px] h-[300px] left-[0]  bg-black"   />
         </div>
       </div>
     </article>

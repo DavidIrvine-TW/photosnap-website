@@ -5,7 +5,7 @@ import FeaturesFooterHero from './FeaturesFooterHero';
 
 function FeaturesPageIndex() {
   return (
-    <section className='fade-in'>
+    <section id="features--page" className='fade-in mx-auto'>
         <FeaturesPageHero/>
         <FeaturesFeatures/>
         <FeaturesFooterHero/>

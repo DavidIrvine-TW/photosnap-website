@@ -19,9 +19,9 @@ function StoriesHero() {
   ];
 
   return (
-    <article>
+    <article className="relative z-[-10] w-[375px] tablet:w-[768px] desktop:w-[1440px]">
       {appalacia.map((img, index) => (
-        <div key={index} className="relative ">
+        <div key={index} className="relative">
           <div>
             <picture>
               <source srcSet={heroImgDesk} media="(min-width: 1440px)" />
@@ -29,7 +29,7 @@ function StoriesHero() {
             </picture>
           </div>
 
-          <div className="bg-black px-[2rem] py-[3rem] tablet:w-[387px] tablet:absolute tablet:bg-transparent top-[65px]">
+          <div className="bg-black px-[2rem] py-[3rem] tablet:w-[387px] tablet:absolute tablet:bg-transparent top-[65px] desktop:left-[85px]">
             <p className="text-white font-bold mb-[1rem] tracking-[2px] tablet:mb-[1.5rem]">
               LAST MONTH’S FEATURED STORY
             </p>

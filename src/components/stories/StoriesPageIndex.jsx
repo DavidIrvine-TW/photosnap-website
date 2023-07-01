@@ -3,7 +3,7 @@ import StoriesFeatured from "./StoriesFeatured"
 
 function StoriesPageIndex() {
   return (
-    <section className='fade-in'>
+    <section id="stories--page" className='fade-in mx-auto'>
         <StoriesHero/>
         <StoriesFeatured/>
     </section>

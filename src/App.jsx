@@ -4,6 +4,8 @@ import Header from "./components/header/Header";
 import MobileMenu from "./components/mobile/MobileMenu";
 import HomePageIndex from "./components/homepage/HomePageIndex";
 import Footer from "./components/footer/Footer";
+import FooterTablet from "./components/footer/FooterTablet";
+import FooterDesktop from "./components/footer/FooterDesktop";
 import StoriesPageIndex from "./components/stories/StoriesPageIndex";
 import FeaturesPageIndex from "./components/features/FeaturesPageIndex";
 import PricingPageIndex from "./components/pricing/PricingPageIndex";
@@ -22,13 +24,13 @@ function App() {
   };
 
   return (
-    <div id="wrapper" className="overflow-hidden w-[375px] tablet:w-[768px] desktop:w-[1440px] mx-auto">
+    <div id="wrapper" className="overflow-hidden w-[375px] tablet:w-[768px] desktop:w-[1440px] mx-auto ">
       <Header burgerMenuHandler={burgerMenuHandler} burgerMenu={burgerMenu} />
       <MobileMenu
         burgerMenu={burgerMenu}
         burgerMenuHandler={burgerMenuHandler}
       />
-      <main>
+      <main className="border-x-2 border-gray overflow-hidden">
         <Routes>
           <Route path="/" element={<HomePageIndex />} />
           <Route path="/stories" element={<StoriesPageIndex />} />
@@ -38,6 +40,8 @@ function App() {
       </main>
 
       <Footer scrollToTop={scrollToTop} />
+      <FooterTablet scrollToTop={scrollToTop}/>
+      <FooterDesktop scrollToTop={scrollToTop}/>
     </div>
   );
 }

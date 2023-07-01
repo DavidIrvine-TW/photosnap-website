@@ -3,7 +3,7 @@ import tick from "../../assets/pricing/desktop/check.svg";
 
 function PricingPageTable() {
   return (
-    <article className="px-[2rem] text-[0.75rem] uppercase tracking-[1.7px] pb-[4rem] tablet:pb-[7rem]">
+    <article className="px-[2rem] text-[0.75rem] uppercase tracking-[1.7px] pb-[4rem] tablet:pb-[7rem] desktop:px-[0px]">
       <h2 className="mx-auto text-h1 mt-[7rem] mb-[6.5rem] text-center ">
         COMPARE
       </h2>

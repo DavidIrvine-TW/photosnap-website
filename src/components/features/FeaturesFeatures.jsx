@@ -7,9 +7,9 @@ import featureSix from "../../assets/features/desktop/drag-drop.svg";
 
 function FeaturesFeatures() {
   return (
-    <section className="py-[5rem] px-[2rem] tablet:flex tablet:flex-wrap gap-[1rem] tablet:px-[1.6rem]">
+    <section className="py-[5rem] px-[2rem] tablet:flex tablet:flex-wrap gap-[1rem] tablet:px-[1.6rem] desktop:w-[1440px] desktop:py-[10rem] desktop:px-[10.3rem] desktop:gap-[2.7rem]">
 
-      <div className="w-full text-center mb-[3.5rem] tablet:w-[340px]">
+      <div className="w-full text-center mb-[3.5rem] tablet:w-[340px] desktop:mb-[0px]">
         <div className="w-[72px] h-[72px] mx-auto mb-[3rem]">
           <img src={featureOne} />
         </div>
@@ -20,7 +20,7 @@ function FeaturesFeatures() {
         </p>
       </div>
 
-      <div className="w-full text-center mb-[3.5rem] tablet:w-[340px]">
+      <div className="w-full text-center mb-[3.5rem] tablet:w-[340px] desktop:mb-[0px]">
         <div className="w-[72px] h-[72px] mx-auto mb-[3rem]">
           <img src={featureTwo} />
         </div>
@@ -31,7 +31,7 @@ function FeaturesFeatures() {
         </p>
       </div>
 
-      <div className="w-full text-center mb-[3.5rem] tablet:w-[340px]">
+      <div className="w-full text-center mb-[3.5rem] tablet:w-[340px] desktop:mb-[0px]">
         <div className="w-[72px] h-[72px] mx-auto mb-[3rem]">
           <img src={featureThree} />
         </div>
@@ -42,7 +42,7 @@ function FeaturesFeatures() {
         </p>
       </div>
 
-      <div className="w-full text-center mb-[3.5rem] tablet:w-[340px]">
+      <div className="w-full text-center mb-[3.5rem] tablet:w-[340px] desktop:mb-[0px]">
         <div className="w-[72px] h-[72px] mx-auto mb-[3rem]">
           <img src={featureFour} />
         </div>
@@ -53,7 +53,7 @@ function FeaturesFeatures() {
         </p>
       </div>
 
-      <div className="w-full text-center mb-[3.5rem] tablet:w-[340px]">
+      <div className="w-full text-center mb-[3.5rem] tablet:w-[340px] desktop:mb-[0px]">
         <div className="w-[72px] h-[72px] mx-auto mb-[3rem]">
           <img src={featureFive} />
         </div>
@@ -64,7 +64,7 @@ function FeaturesFeatures() {
         </p>
       </div>
 
-      <div className="w-full text-center tablet:w-[340px]">
+      <div className="w-full text-center tablet:w-[340px] desktop:mb-[0px]">
         <div className="w-[72px] h-[72px] mx-auto mb-[3rem]">
           <img src={featureSix} />
         </div>
