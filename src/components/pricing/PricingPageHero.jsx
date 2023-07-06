@@ -1,7 +1,7 @@
 
-import imgHero from "../../assets/pricing/mobile/hero.jpg";
-import imgHeroTab from "../../assets/pricing/tablet/hero.jpg";
-import imgHeroDesk from "../../assets/pricing/desktop/hero.jpg";
+import imgHero from "../../../public/assets/pricing/mobile/hero.jpg";
+import imgHeroTab from "../../../public/assets/pricing/tablet/hero.jpg";
+import imgHeroDesk from "../../../public/assets/pricing/desktop/hero.jpg";
 
 function PricingPageHero() {
   return (

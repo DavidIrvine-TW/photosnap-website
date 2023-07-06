@@ -30,15 +30,14 @@ function App() {
         burgerMenu={burgerMenu}
         burgerMenuHandler={burgerMenuHandler}
       />
-      <main className="border-x-2 border-gray overflow-hidden">
+      <main className="border-r-2 border-gray overflow-hidden">
         <Routes>
-          <Route path="/" element={<HomePageIndex />} />
+          <Route path="/" element={<HomePageIndex />}/>
           <Route path="/stories" element={<StoriesPageIndex />} />
           <Route path="/features" element={<FeaturesPageIndex />} />
           <Route path="/pricing" element={<PricingPageIndex />} />
         </Routes>
       </main>
-
       <Footer scrollToTop={scrollToTop} />
       <FooterTablet scrollToTop={scrollToTop}/>
       <FooterDesktop scrollToTop={scrollToTop}/>

@@ -1,7 +1,7 @@
 
-import heroImg from "../../assets/stories/mobile/moon-of-appalacia.jpg";
-import heroImgDesk from "../../assets/stories/desktop/moon-of-appalacia.jpg";
-import arrow from "../../assets/shared/desktop/arrow-white.svg";
+import heroImg from "../../../public/assets/stories/mobile/moon-of-appalacia.jpg";
+import heroImgDesk from "../../../public/assets/stories/desktop/moon-of-appalacia.jpg";
+import arrow from "../../../public/assets/shared/desktop/arrow-white.svg";
 
 function StoriesHero() {
 

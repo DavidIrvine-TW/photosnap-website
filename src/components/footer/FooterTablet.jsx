@@ -1,10 +1,10 @@
-import logo from "../../assets/shared/desktop/logo-white.svg";
-import fb from "../../assets/shared/desktop/facebook.svg";
-import yt from "../../assets/shared/desktop/youtube.svg";
-import twt from "../../assets/shared/desktop/twitter.svg";
-import pin from "../../assets/shared/desktop/pinterest.svg";
-import insta from "../../assets/shared/desktop/instagram.svg";
-import arrow from "../../assets/shared/desktop/arrow-white.svg";
+import logo from "../../../public/assets/shared/desktop/logo-white.svg";
+import fb from "../../../public/assets/shared/desktop/facebook.svg";
+import yt from "../../../public/assets/shared/desktop/youtube.svg";
+import twt from "../../../public/assets/shared/desktop/twitter.svg";
+import pin from "../../../public/assets/shared/desktop/pinterest.svg";
+import insta from "../../../public/assets/shared/desktop/instagram.svg";
+import arrow from "../../../public/assets/shared/desktop/arrow-white.svg";
 import { Link } from "react-router-dom";
 
 

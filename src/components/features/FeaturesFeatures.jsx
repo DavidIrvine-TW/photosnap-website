@@ -1,9 +1,9 @@
-import featureOne from "../../assets/features/desktop/responsive.svg";
-import featureTwo from "../../assets/features/desktop/no-limit.svg";
-import featureThree from "../../assets/features/desktop/embed.svg";
-import featureFour from "../../assets/features/desktop/custom-domain.svg";
-import featureFive from "../../assets/features/desktop/boost-exposure.svg";
-import featureSix from "../../assets/features/desktop/drag-drop.svg";
+import featureOne from "../../../public/assets/features/desktop/responsive.svg";
+import featureTwo from "../../../public/assets/features/desktop/no-limit.svg";
+import featureThree from "../../../public/assets/features/desktop/embed.svg";
+import featureFour from "../../../public/assets/features/desktop/custom-domain.svg";
+import featureFive from "../../../public/assets/features/desktop/boost-exposure.svg";
+import featureSix from "../../../public/assets/features/desktop/drag-drop.svg";
 
 function FeaturesFeatures() {
   return (

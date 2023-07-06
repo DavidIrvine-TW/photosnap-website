@@ -3,7 +3,7 @@ import React from "react";
 function PictureCard({card, basic, pro, business, billing }) {
   return (
     <article
-      className={`pt-[3.5rem] pb-[2.5rem] 
+      className={`card pt-[3.5rem] pb-[2.5rem] 
       px-[1rem] text-center mx-auto w-[318px] mb-[1.5rem] 
       ${card.cardStyle} tablet:w-[689px] tablet:flex tablet:pt-[2.5rem] tablet:px-[2.5rem] desktop:flex desktop:flex-col`}
     >

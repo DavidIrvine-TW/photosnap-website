@@ -1,6 +1,6 @@
-import imgHero from "../../assets/features/mobile/hero.jpg";
-import imgHeroTab from "../../assets/features/tablet/hero.jpg";
-import imgHeroDesk from "../../assets/features/desktop/hero.jpg";
+import imgHero from "../../../public/assets/features/mobile/hero.jpg";
+import imgHeroTab from "../../../public/assets/features/tablet/hero.jpg";
+import imgHeroDesk from "../../../public/assets/features/desktop/hero.jpg";
 
 function FeaturesPageHero() {
   return (

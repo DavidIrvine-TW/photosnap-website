@@ -1,6 +1,6 @@
-import featureOne from "../../assets/features/desktop/responsive.svg";
-import featureTwo from "../../assets/features/desktop/no-limit.svg";
-import featureThree from "../../assets/features/desktop/embed.svg";
+import featureOne from "../../../public/assets/features/desktop/responsive.svg";
+import featureTwo from "../../../public/assets/features/desktop/no-limit.svg";
+import featureThree from "../../../public/assets/features/desktop/embed.svg";
 
 function HomePageFeatures() {
   return (

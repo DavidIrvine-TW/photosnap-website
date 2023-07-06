@@ -1,9 +1,9 @@
-import arrowWhite from "../../assets/shared/desktop/arrow-white.svg";
+import arrowWhite from "../../../public/assets/shared/desktop/arrow-white.svg";
 import imgPaths from './imgPaths.js'
 
 function StoriesFeatured() {
-  const baseUrl = "src/assets/stories/mobile/";
-  const baseUrlDesk = "src/assets/stories/desktop/";
+  const baseUrl = "./assets/stories/mobile/";
+  const baseUrlDesk = "./assets/stories/desktop/";
 
   return (
     <article className="tablet:w-[768px] tablet:flex tablet:flex-wrap desktop:w-[1440px] mx-auto bg-gradient-to-r from-gradient1 to-gradient3 relative z-[-1]">

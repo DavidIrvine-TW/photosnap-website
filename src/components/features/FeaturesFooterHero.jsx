@@ -1,7 +1,7 @@
-import imgFoot from "../../assets/shared/mobile/bg-beta.jpg";
-import imgFootTab from "../../assets/shared/tablet/bg-beta.jpg";
-import imgFootDesk from "../../assets/shared/desktop/bg-beta.jpg";
-import arrow from "../../assets/shared/desktop/arrow-white.svg";
+import imgFoot from "../../../public/assets/shared/mobile/bg-beta.jpg";
+import imgFootTab from "../../../public/assets/shared/tablet/bg-beta.jpg";
+import imgFootDesk from "../../../public/assets/shared/desktop/bg-beta.jpg";
+import arrow from "../../../public/assets/shared/desktop/arrow-white.svg";
 
 function FeaturesFooterHero() {
   return (

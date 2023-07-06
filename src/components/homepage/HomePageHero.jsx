@@ -1,14 +1,14 @@
-import imgOne from "../../assets/home/mobile/create-and-share.jpg";
-import imgOneTab from "../../assets/home/tablet/create-and-share.jpg";
-import imgOneDesk from "../../assets/home/desktop/create-and-share.jpg";
-import imgTwo from "../../assets/home/mobile/beautiful-stories.jpg";
-import imgTwoTab from "../../assets/home/tablet/beautiful-stories.jpg";
-import imgTwoDesk from "../../assets/home/desktop/beautiful-stories.jpg";
-import imgThree from "../../assets/home/mobile/designed-for-everyone.jpg";
-import imgThreeTab from "../../assets/home/tablet/designed-for-everyone.jpg";
-import imgThreeDesk from "../../assets/home/desktop/designed-for-everyone.jpg";
-import arrowWhite from "../../assets/shared/desktop/arrow-white.svg";
-import arrow from "../../assets/shared/desktop/arrow.svg";
+import imgOne from "../../../public/assets/home/mobile/create-and-share.jpg";
+import imgOneTab from "../../../public/assets/home/tablet/create-and-share.jpg";
+import imgOneDesk from "../../../public/assets/home/desktop/create-and-share.jpg";
+import imgTwo from "../../../public/assets/home/mobile/beautiful-stories.jpg";
+import imgTwoTab from "../../../public/assets/home/tablet/beautiful-stories.jpg";
+import imgTwoDesk from "../../../public/assets/home/desktop/beautiful-stories.jpg";
+import imgThree from "../../../public/assets/home/mobile/designed-for-everyone.jpg";
+import imgThreeTab from "../../../public/assets/home/tablet/designed-for-everyone.jpg";
+import imgThreeDesk from "../../../public/assets/home/desktop/designed-for-everyone.jpg";
+import arrowWhite from "../../../public/assets/shared/desktop/arrow-white.svg";
+import arrow from "../../../public/assets/shared/desktop/arrow.svg";
 
 function HomePageHero() {
   return (

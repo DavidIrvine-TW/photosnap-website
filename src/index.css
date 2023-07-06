@@ -120,13 +120,7 @@ display: block;
   visibility: hidden;
 }
 
-/* #img--container::after {
-  visibility: hidden;
-  content: "";
-  position: absolute;
-  bottom: 0;
-  height: 6px;
-  width: 100%;
-  background-image: linear-gradient(0.6deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
-  z-index: 100000;
-} */
+.card {
+  box-shadow: 1px 1px 10px gray;
+  
+}

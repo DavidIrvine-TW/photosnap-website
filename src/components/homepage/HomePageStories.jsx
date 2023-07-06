@@ -1,7 +1,7 @@
-import arrowWhite from "../../assets/shared/desktop/arrow-white.svg";
+import arrowWhite from "../../../public/assets/shared/desktop/arrow-white.svg";
 
 function HomePageStories() {
-  const baseUrl = "src/assets/stories/desktop/";
+  const baseUrl = "./assets/stories/desktop/";
   const imagePaths = [
     {
       id: 1,
@@ -36,7 +36,7 @@ function HomePageStories() {
   return (
     <article className="w-[375px] tablet:w-[768px] desktop:w-[1440px] tablet:flex tablet:flex-wrap mx-auto bg-gradient-to-r from-gradient1 to-gradient3 relative z-[-1]">
       {imagePaths.map((path, index) => (
-        <div key={index} className="mx-auto relative">
+        <div key={index} className="mx-auto relative cursor-pointer">
           <div
             id="img--container"
             className=" w-[375px] tablet:w-[384px] desktop:w-[360px]"

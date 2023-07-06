@@ -1,5 +1,5 @@
 import PricingPageTableTab from "./PricingPageTableTab";
-import tick from "../../assets/pricing/desktop/check.svg";
+import tick from "../../../public/assets/pricing/desktop/check.svg";
 
 function PricingPageTable() {
   return (

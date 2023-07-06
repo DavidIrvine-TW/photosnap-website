@@ -1,4 +1,5 @@
-import logo from "../../assets/shared/desktop/logo.svg";
+
+import logo from '../../../public/assets/shared/desktop/logo.svg'
 import { Link } from "react-router-dom";
 
 function Header({ burgerMenuHandler, burgerMenu }) {
