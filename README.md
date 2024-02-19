@@ -4,9 +4,7 @@ A multipage photo-sharing website/blog. This project was built from a Figma desi
 
 Tech: 
 
-<img src="https://skillicons.dev/icons?i=react" alt="skills-icons"/>
-<img src="https://skillicons.dev/icons?i=tailwind" alt="skills-icons"/>
-<img src="https://skillicons.dev/icons?i=figma" alt="skills-icons"/>
+<img src="https://skillicons.dev/icons?i=react" alt="skills-icons"/> <img src="https://skillicons.dev/icons?i=tailwind" alt="skills-icons"/> <img src="https://skillicons.dev/icons?i=figma" alt="skills-icons"/>
 <img src="https://skillicons.dev/icons?i=vite" alt="skills-icons"/>
 
 ### PhotoSnap Screenshots
