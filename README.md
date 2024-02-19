@@ -7,13 +7,13 @@ Tech:
 <img src="https://skillicons.dev/icons?i=react" alt="skills-icons"/> <img src="https://skillicons.dev/icons?i=tailwind" alt="skills-icons"/> <img src="https://skillicons.dev/icons?i=figma" alt="skills-icons"/>
 <img src="https://skillicons.dev/icons?i=vite" alt="skills-icons"/>
 
-### PhotoSnap Screenshots
+## PhotoSnap Screenshots
 
-#### Homepage 
+### Homepage 
 <img src="./public/assets/photosnapOne.jpg" alt="trailerview screenshot">
 
-#### Stories 
+### Stories 
 <img src="./public/assets/photosnapTwo.jpg" alt="trailerview screenshot">
 
-#### Pricing
+### Pricing
 <img src="./public/assets/photosnapThree.jpg" alt="trailerview screenshot">
